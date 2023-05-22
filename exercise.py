@@ -1,10 +1,12 @@
-weight = input ("How much do you wieght? ")
+weight =  int (input ("How much do you weight? "))
 question = input ("Type L por lbs or K to kilos ")
 
-if question.upper == "L":
- print ("Your weight in KG is: ", int (weight)*0.4535, "KG")
+if question.upper () == "K":
+    converted = weight / 0.45
+    print ("Weight in kilos " + str(converted))
 
 else:
- print ("Your weight in LBS is: ",  int (weight)//0.4535, "LBS")
+     converted = weight * 0.45
+     print ("Weight in pounds " + str(converted))
 
 print ("Done")
