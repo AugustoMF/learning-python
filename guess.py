@@ -6,6 +6,6 @@ while guess_count < guess_limit:
    guess_count += 1
    if guess == secret_number:
       print ("Corect!")
-      quit()
-else:
-   print ("Try again, you've had", guess_count, "guesses")
+      break
+else: 
+   print ("You failed")
