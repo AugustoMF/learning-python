@@ -19,7 +19,7 @@ while command != quit:
         else:
             print ("the car is already stopped you idiot!")
     
-    elif command == "Help":   
+    elif command == "help":   
         print ("""
 type start to start your car
 type stop to stop your car
