@@ -1,3 +1,5 @@
-text = input ("Insira o texto em minuscula ")
+text = """"
+
+"""
 text = text.upper()
 print (text)
