@@ -7,7 +7,7 @@ if playing.lower() != "sim":
 print("Então vamos começar!")
 
 busch = input("Quantas vitórias Kyle Busch tem na NASCAR Cup Series? (Digite em números) ")
-if busch == "62":
+if busch == "63":
     print("Acertou!")
 else:
     print("Errou, tente novamente")
