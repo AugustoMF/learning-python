@@ -1,11 +1,14 @@
-secret_number = 4
-guess_count = 0
-guess_limit = 3
-while guess_count < guess_limit:
+import random
+
+secretNumber = random.randint(1,6)
+guessCount = 0
+guessLimit = 3
+while guessCount < guessLimit:
    guess = int (input  ('Guess the secret number '))
-   guess_count += 1
-   if guess == secret_number:
+   guessCount += 1
+   if guess == secretNumber:
       print ("Corect!")
       break
 else: 
-   print ("You failed")
+    print(secretNumber)
+    print ("You failed")
